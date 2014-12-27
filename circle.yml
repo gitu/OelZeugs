@@ -10,10 +10,10 @@ machine:
 
 dependencies:
   pre:
-    - ./gradlew dependencies
+    - gradle dependencies
 
 test:
   override:
-    - ./gradlew cobertura
+    - gradle cobertura
   post:
-    - ./gradlew coveralls
+    - gradle coveralls
