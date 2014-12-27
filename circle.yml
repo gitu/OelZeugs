@@ -16,4 +16,4 @@ test:
   override:
     - ./gradlew cobertura
   post:
-    - ./gradle coveralls
+    - ./gradlew coveralls
