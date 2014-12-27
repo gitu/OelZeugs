@@ -1,0 +1,11 @@
+* text=auto
+*.txt text
+*.c text
+*.h text
+*.jpg binary
+*.jar binary
+*.png binary
+*.jks binary
+*.woff binary
+*.yml text
+*.java text
