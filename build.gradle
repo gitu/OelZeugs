@@ -16,6 +16,7 @@ configurations.all {
 */
 buildscript {
     repositories {
+        maven { url "http://dl.bintray.com/gitu/gradle-plugins" }
         mavenCentral()
     }
     dependencies {
